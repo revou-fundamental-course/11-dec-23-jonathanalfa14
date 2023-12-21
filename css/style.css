@@ -1,0 +1,112 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+/* navbar */
+nav {
+  height: 60px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid black;
+}
+nav .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border-bottom: 2px solid black; */
+  z-index: auto;
+}
+.nav-logo {
+  padding-top: 4px;
+}
+.nav-menu {
+  line-height: 30px;
+}
+.nav-menu ul {
+  display: flex;
+  flex-direction: row;
+  /* background-color: black; */
+  list-style-type: none;
+}
+.nav-menu ul li {
+  margin: 15px 0px;
+}
+.nav-menu a {
+  border-radius: 2px;
+  border: 1px solid black;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: aqua;
+
+  background-color: #fff;
+  color: black;
+}
+.nav-menu a:hover {
+  background-color: aqua;
+  color: black;
+
+  background-color: aqua;
+  color: #fff;
+}
+
+/* header */
+header img {
+  width: 1335px;
+  height: 768px;
+  margin-bottom: 30px;
+}
+
+/* facilitation */
+.facilitation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.facilitation div {
+  text-align: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer */
+footer {
+  height: 60px;
+  line-height: 60px;
+  border-top: 2px solid black;
+  font-size: 13px;
+  font-style: italic;
+  background-color: #fff;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-sosmed {
+  margin-top: 7px;
+}
+.footer-sosmed a {
+  margin: 0 15px;
+}
+.footer-sosmed a i:hover {
+  font-size: 30px;
+}
