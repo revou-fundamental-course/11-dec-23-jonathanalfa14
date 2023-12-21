@@ -43,3 +43,31 @@ footer {
   left: 0;
   bottom: 0;
 }
+
+/* responsive mobile */
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 20px 0px 20px;
+    font-size: 12px;
+  }
+  .main-judul h1 {
+    font-size: 18px;
+  }
+  .main-form {
+    width: 100%;
+  }
+  .main-form table {
+    width: 100%;
+  }
+  .main-pesan {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-data {
+    margin: 0px auto;
+  }
+
+  footer {
+    position: relative;
+  }
+}
